@@ -37,7 +37,7 @@ git config --global user.email "spelkington@gmail.com"
 # ===== GIT SSH =====
 echo "\n${CYAN}Loading SSH to GitHub${NC}"
 
-if [! -f "$USERDIR/.ssh/id_rsa.pub" ]; then
+if [ ! -f "$USERDIR/.ssh/id_rsa.pub" ]; then
 	echo "\n${CYAN}No SSH key found: generating new${NC}"	
 	ssh-keygen -t rsa -b 4096 -C "spelkington@gmail.com"
 fi
@@ -65,38 +65,38 @@ cp -r $CONFIGS/.configs/ $USERDIR/
 
 # ===== GOOGLE CHROME =====
 echo "\n${CYAN}Installing Chrome${NC}"
-#UNCOMMENT wget -O $SETUP/google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-#UNCOMMENT sudo dpkg -i $SETUP/google-chrome.deb
+wget -O $SETUP/google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i $SETUP/google-chrome.deb
 
 # ===== ANACONDA/PYTHON =====
 echo "\n${CYAN}Installing Anaconda/Python${NC}"
-#UNCOMMENT wget -O $SETUP/anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
-#UNCOMMENT sh $SETUP/anaconda.sh
+wget -O $SETUP/anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+sh $SETUP/anaconda.sh
 
 # ===== GESTURES SETUP =====
 echo "\n${CYAN}Set up gestures for workspace swiping${NC}"
 
 sudo gpasswd -a $USER input
-#UNCOMMENT sudo apt install -y xdotool wmctrl libinput-tools
+sudo apt install -y xdotool wmctrl libinput-tools
 
 cd $SETUP
 git clone https://github.com/bulletmark/libinput-gestures.git
 cd $SETUP/libinput-gestures
-#UNCOMMENT sudo make install
+sudo make install
 
-#UNCOMMENT libinput-gestures-setup autostart
+libinput-gestures-setup autostart
 
 # ===== GNOME UTLITIES =====
 echo "\n${CYAN}Installing Gnome utils${NC}"
-#UNCOMMENT sudo apt install -y gnome-screenshot gnome-disk-utility
+sudo apt install -y gnome-screenshot gnome-disk-utility
 
 # ===== VIM =====
 echo "\n${CYAN}Installing Vim${NC}"
-#UNCOMMENT sudo apt install -y vim
+sudo apt install -y vim
 
 # ===== VSCODE =====
 echo "\n${CYAN}Installing VSCode${NC}"
-#UNCOMMENT sudo snap install --classic code
+sudo snap install --classic code
 
 # ===== CLEANUP =====
 echo "\n${CYAN}Cleaning up...${NC}"
