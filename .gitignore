@@ -1,2 +1,4 @@
 *.swp
 yarn/
+workspaceStorage/
+
