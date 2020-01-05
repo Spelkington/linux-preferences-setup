@@ -96,10 +96,21 @@ sudo apt install -y vim
 
 # ===== VSCODE =====
 echo "\n${CYAN}Installing VSCode${NC}"
-sudo snap install --classic code
+wget -O $SETUP/vscode.deb https://go.microsoft.com/fwlink/?LinkID=760868
+sudo apt install $SETUP/vscode.deb
+
+# ===== Remmina =====
+sudo apt install remmina
+
+# ===== Arduino =====
+
+ARDUINO_VER=1.8.10
+
+wget -O $SETUP/arduino.tar.xz https://downloads.arduino.cc/arduino-${ARDUINO_VER}-linux64.tar.xz
+tar xvJf $SETUP/arduino.tar.xz -C $SETUP
+sh $SETUP/arduino*/install.sh
 
 # ===== CLEANUP =====
 echo "\n${CYAN}Cleaning up...${NC}"
 rm -rf $SETUP
 
-echo "\n${CYAN}Done! Log out of $USER to complete setup.${NC}"
