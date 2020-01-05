@@ -1,0 +1,48 @@
+2020/01/04-05:33:40.213 6d0 Reusing MANIFEST /home/spelkington/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/01/04-05:33:40.213 6d0 Recovering log #47
+2020/01/04-05:33:40.214 6d0 Reusing old log /home/spelkington/.config/google-chrome/Default/Sync Data/LevelDB/000047.log 
+2020/01/04-12:54:51.897 16c4 Level-0 table #52: started
+2020/01/04-12:54:51.906 16c4 Level-0 table #52: 133442 bytes OK
+2020/01/04-12:54:51.914 16c4 Delete type=0 #47
+2020/01/04-13:31:01.351 16c4 Level-0 table #54: started
+2020/01/04-13:31:01.360 16c4 Level-0 table #54: 101662 bytes OK
+2020/01/04-13:31:01.367 16c4 Delete type=0 #51
+2020/01/04-14:29:15.250 16c4 Level-0 table #56: started
+2020/01/04-14:29:15.265 16c4 Level-0 table #56: 96468 bytes OK
+2020/01/04-14:29:15.275 16c4 Delete type=0 #53
+2020/01/04-14:52:02.956 16c4 Level-0 table #58: started
+2020/01/04-14:52:02.967 16c4 Level-0 table #58: 124838 bytes OK
+2020/01/04-14:52:02.974 16c4 Delete type=0 #55
+2020/01/04-14:52:02.974 16c4 Compacting 4@0 + 1@1 files
+2020/01/04-14:52:02.993 16c4 Generated table #59@0: 1334 keys, 244372 bytes
+2020/01/04-14:52:02.993 16c4 Compacted 4@0 + 1@1 files => 244372 bytes
+2020/01/04-14:52:03.000 16c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/04-14:52:03.000 16c4 Delete type=2 #56
+2020/01/04-14:52:03.000 16c4 Delete type=2 #54
+2020/01/04-14:52:03.000 16c4 Delete type=2 #58
+2020/01/04-14:52:03.000 16c4 Delete type=2 #52
+2020/01/04-14:52:03.000 16c4 Delete type=2 #49
+2020/01/04-14:56:51.644 16c4 Level-0 table #61: started
+2020/01/04-14:56:51.656 16c4 Level-0 table #61: 160401 bytes OK
+2020/01/04-14:56:51.664 16c4 Delete type=0 #57
+2020/01/04-15:13:35.846 16c4 Level-0 table #63: started
+2020/01/04-15:13:35.882 16c4 Level-0 table #63: 114391 bytes OK
+2020/01/04-15:13:35.889 16c4 Delete type=0 #60
+2020/01/04-15:27:32.818 16c4 Level-0 table #65: started
+2020/01/04-15:27:32.828 16c4 Level-0 table #65: 127257 bytes OK
+2020/01/04-15:27:32.835 16c4 Delete type=0 #62
+2020/01/04-15:55:25.003 16c4 Level-0 table #67: started
+2020/01/04-15:55:25.014 16c4 Level-0 table #67: 105769 bytes OK
+2020/01/04-15:55:25.022 16c4 Delete type=0 #64
+2020/01/04-15:55:25.023 16c4 Compacting 4@0 + 1@1 files
+2020/01/04-15:55:25.046 16c4 Generated table #68@0: 1464 keys, 269531 bytes
+2020/01/04-15:55:25.046 16c4 Compacted 4@0 + 1@1 files => 269531 bytes
+2020/01/04-15:55:25.052 16c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/04-15:55:25.053 16c4 Delete type=2 #67
+2020/01/04-15:55:25.053 16c4 Delete type=2 #61
+2020/01/04-15:55:25.053 16c4 Delete type=2 #63
+2020/01/04-15:55:25.053 16c4 Delete type=2 #59
+2020/01/04-15:55:25.053 16c4 Delete type=2 #65
+2020/01/04-16:46:08.264 16c4 Level-0 table #70: started
+2020/01/04-16:46:08.275 16c4 Level-0 table #70: 114850 bytes OK
+2020/01/04-16:46:08.282 16c4 Delete type=0 #66

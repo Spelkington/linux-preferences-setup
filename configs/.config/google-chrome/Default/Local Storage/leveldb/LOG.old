@@ -1,0 +1,6 @@
+2020/01/02-13:18:16.070 3c8d Reusing MANIFEST /home/spelkington/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/01/02-13:18:16.071 3c8d Recovering log #304
+2020/01/02-13:18:16.072 3c8d Reusing old log /home/spelkington/.config/google-chrome/Default/Local Storage/leveldb/000304.log 
+2020/01/02-13:19:43.138 3e93 Level-0 table #307: started
+2020/01/02-13:19:43.167 3e93 Level-0 table #307: 16045 bytes OK
+2020/01/02-13:19:43.173 3e93 Delete type=0 #304

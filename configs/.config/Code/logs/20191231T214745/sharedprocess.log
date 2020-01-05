@@ -1,0 +1,14 @@
+[2019-12-31 21:47:50.323] [sharedprocess] [info] main {"machineId":"316689c04f9a35099cfa5d081ca6bce252ce4a42fdf3f55886b8c93d2601d2d4","windowId":2}
+[2019-12-31 21:48:30.305] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-12-31 21:50:37.474] [sharedprocess] [info] Installing extension: platformio.platformio-ide
+[2019-12-31 21:50:37.881] [sharedprocess] [info] Downloaded extension: platformio.platformio-ide /tmp/75c87c77-5812-457e-b503-f1c6efec774c
+[2019-12-31 21:50:41.543] [sharedprocess] [info] Extracted extension to /home/spelkington/.vscode/extensions/.platformio.platformio-ide-1.10.0: platformio.platformio-ide
+[2019-12-31 21:50:41.544] [sharedprocess] [info] Renamed to /home/spelkington/.vscode/extensions/platformio.platformio-ide-1.10.0
+[2019-12-31 21:50:41.548] [sharedprocess] [info] Installation completed. platformio.platformio-ide
+[2019-12-31 21:50:41.727] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2019-12-31 21:50:42.128] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools /tmp/ff33e066-5349-4e0d-9afb-907906b22dd5
+[2019-12-31 21:50:44.420] [sharedprocess] [info] Extracted extension to /home/spelkington/.vscode/extensions/.ms-vscode.cpptools-0.26.2: ms-vscode.cpptools
+[2019-12-31 21:50:44.421] [sharedprocess] [info] Renamed to /home/spelkington/.vscode/extensions/ms-vscode.cpptools-0.26.2
+[2019-12-31 21:50:44.430] [sharedprocess] [info] Installation completed. ms-vscode.cpptools
+[2019-12-31 21:50:44.469] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools
+[2019-12-31 21:50:44.476] [sharedprocess] [info] Extensions installed successfully: platformio.platformio-ide

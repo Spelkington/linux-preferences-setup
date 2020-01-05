@@ -1,0 +1,317 @@
+{
+   "CSS3ColorFormat": {
+      "message": "CSS value format eg: (#1,#2,#3)"
+   },
+   "EnableHSL": {
+      "message": "Show HSL"
+   },
+   "EnableHex": {
+      "message": "Show hexadecimal"
+   },
+   "EnableRGB": {
+      "message": "Show RGB"
+   },
+   "ShowRGBHSL": {
+      "message": "Also show Hex, RGB and/or HSL (configure above)"
+   },
+   "addToPalette": {
+      "message": "Add to color palette"
+   },
+   "advancedOptions": {
+      "message": "Advanced Options"
+   },
+   "allowWebGl": {
+      "message": "Allow WebGL for Pixelated Preview"
+   },
+   "appleIcon": {
+      "message": "Use Apple Digital Color Meter logo"
+   },
+   "approved": {
+      "message": "Approved"
+   },
+   "autocopyhex": {
+      "message": "Attempt to auto copy value to clipboard"
+   },
+   "bbackgroundColor": {
+      "message": "Popup Background Color"
+   },
+   "bgPageUnavailable": {
+      "message": "Background Snapshot Not Responding - Please Refresh the Page and Try Again."
+   },
+   "borderValue": {
+      "message": "Borders to use (css value)"
+   },
+   "buyRegisterTip": {
+      "message": "Click to Buy & Register a ColorPick License."
+   },
+   "clear": {
+      "message": "Clear"
+   },
+   "clearSync": {
+      "message": "Clear Sync Storage"
+   },
+   "closeAndExit": {
+      "message": "Close and Exit Color Pick Mode"
+   },
+   "colorOfDay": {
+      "message": "Color of the day"
+   },
+   "configurationHelp": {
+      "message": "Help, Options & History"
+   },
+   "copycolorval": {
+      "message": "Copy the color value"
+   },
+   "credits": {
+      "message": "Credits"
+   },
+   "dblClick": {
+      "message": "Double click"
+   },
+   "dedupe": {
+      "message": "dedupe"
+   },
+   "default": {
+      "message": "Default"
+   },
+   "desktopapp": {
+      "message": "Desktop ColorPick App"
+   },
+   "disablePickEveryTime": {
+      "message": "Do not start picking each time popup is clicked"
+   },
+   "disableRewriting": {
+      "message": "Disable affiliation of non-affiliate links"
+   },
+   "emptyDesc": {
+      "message": ""
+   },
+   "error": {
+      "message": "Error"
+   },
+   "extDescription": {
+      "message": "An eye-dropper & color-picker tool that allows you to select color values from webpages."
+   },
+   "extName": {
+      "message": "ColorPick Eyedropper"
+   },
+   "fetchSync": {
+      "message": "Fetch settings from Google Account Sync Storage"
+   },
+   "fishEye": {
+      "message": "Fish Eye Zoom Amount"
+   },
+   "full": {
+      "message": "Full"
+   },
+   "getStandaloneApp": {
+      "message": "ColorPick Standalone Application"
+   },
+   "hasAgreedToLicense": {
+      "message": "Has agreed to Terms of Use"
+   },
+   "help": {
+      "message": "Help/Info"
+   },
+   "helpPage": {
+      "message": "todo"
+   },
+   "hexHasHash": {
+      "message": "Prefix hex value with #"
+   },
+   "hexIsLowerCase": {
+      "message": "Lower case hexadecimal values"
+   },
+   "hideMinimize": {
+      "message": "Hide/Minimize [esc]"
+   },
+   "hideWatermark": {
+      "message": "Hide ColorPick watermark on webpage corner (registered only)"
+   },
+   "history": {
+      "message": "History"
+   },
+   "iconIsBitmap": {
+      "message": "Icon is zoomed pixel preview"
+   },
+   "iconIsPreview": {
+      "message": "Use icon badge square color preview"
+   },
+   "licenseComError": {
+      "message": "Problem communicating with license server."
+   },
+   "licenseComFirewall": {
+      "message": "Make sure your firewall is open on port 80 or contact your system administrator."
+   },
+   "licenseExceeded": {
+      "message": "License may be in use on the maximum number of hosts.  License upgrade may resolve the issue... Launch upgrade webpage?"
+   },
+   "loadsyncOptions": {
+      "message": "Sync Storage options have been loaded and saved."
+   },
+   "maxZoom": {
+      "message": "Max Zoomed"
+   },
+   "maximum": {
+      "message": "Max"
+   },
+   "minimum": {
+      "message": "Min"
+   },
+   "mobileapp": {
+      "message": "Mobile ColorPick App"
+   },
+   "modifyLicense": {
+      "message": "Modify License"
+   },
+   "noSwatches": {
+      "message": "Click colors in color history to add them to a palette for saving and printing."
+   },
+   "off": {
+      "message": "Off"
+   },
+   "on": {
+      "message": "On"
+   },
+   "options": {
+      "message": "Options"
+   },
+   "pickAgainLocked": {
+      "message": "Pick Another Color [Enter]"
+   },
+   "pickAgainUnlocked": {
+      "message": "Select Current Color [Enter]"
+   },
+   "pickEveryTime": {
+      "message": "Start picking colors each time popup is clicked"
+   },
+   "pixelatedPreview": {
+      "message": "Zoomed Preview is Pixelated"
+   },
+   "pleaseTryAgainSoon": {
+      "message": "Please try again soon."
+   },
+   "popOutWindow": {
+      "message": "Pop-Out (separate window)"
+   },
+   "pressEnterToPick": {
+      "message": "Press Enter to Pick Color"
+   },
+   "printSave": {
+      "message": "print / save..."
+   },
+   "reLoad": {
+      "message": "Reload"
+   },
+   "reSnapPage": {
+      "message": "Refresh Picture of Page [r]"
+   },
+   "registerBanner": {
+      "message": "Happy? Register"
+   },
+   "registerBannerLong": {
+      "message": "Please Register ColorPick!"
+   },
+   "registerButton": {
+      "message": "Register"
+   },
+   "registered": {
+      "message": "Registered"
+   },
+   "resetIcon": {
+      "message": "Revert to normal icon"
+   },
+   "rightClick": {
+      "message": "Right click"
+   },
+   "saveOptions": {
+      "message": "Save Options"
+   },
+   "savedoptions": {
+      "message": "Options Saved."
+   },
+   "seeAdvOption": {
+      "message": "See advanced option"
+   },
+   "seeOption": {
+      "message": "See option"
+   },
+   "seeTerms": {
+      "message": "See Terms of Use"
+   },
+   "selectWithExt": {
+      "message": "Select with ColorPick Eyedropper"
+   },
+   "shareClors": {
+      "message": "Color of the Day Statistics (See Terms of Use)"
+   },
+   "showColorChooser": {
+      "message": "Show Color Chooser"
+   },
+   "showDefaults": {
+      "message": "Show Defaults"
+   },
+   "showPreviewInContent": {
+      "message": "Show zoom preview near cursor while picking"
+   },
+   "showPreviousClr": {
+      "message": "Show Split Color Preview with Previous Color"
+   },
+   "showndefaults": {
+      "message": "Please press save, now showing defaults."
+   },
+   "sort": {
+      "message": "sort"
+   },
+   "sponsors": {
+      "message": "Sponsors"
+   },
+   "supportColorInputs": {
+      "message": "Add eyedropper near input[type=color] fields on websites"
+   },
+   "terms": {
+      "message": "Terms of Use"
+   },
+   "tips_0": {
+      "message": "Register ColorPick for the option to hide this message."
+   },
+   "tips_1": {
+      "message": "Move your mouse over the web page to examine pixel color values. Click to the web page to pick!"
+   },
+   "tips_1_locked": {
+      "message": "Click the web page to unlock and examine color values again."
+   },
+   "tips_2": {
+      "message": "Return to the ColorPick menu for fine adjustment options, history or to exit ColorPick."
+   },
+   "tips_3": {
+      "message": "Chase this message for tips and more."
+   },
+   "tips_4": {
+      "message": "Did you know? ColorPick Eyedropper is available for iPhone and Android!"
+   },
+   "tips_5": {
+      "message": "Your Ad Here - Contact via vidsb.com to Sponsor ColorPick."
+   },
+   "unregistered": {
+      "message": "Unregistered"
+   },
+   "usageStatistics": {
+      "message": "Gather Usage Statistics (See Terms of Use)"
+   },
+   "useCSSValues": {
+      "message": "Use CSS values for RGB/HSL"
+   },
+   "usePNG": {
+      "message": "Use PNG quality when available"
+   },
+   "usePrevColorBG": {
+      "message": "Use Previous Color for Background"
+   },
+   "was": {
+      "message": "Was"
+   },
+   "watermark_help": {
+      "message": "Watermark may be disabled from advanced options once you have registered the extension."
+   }
+}

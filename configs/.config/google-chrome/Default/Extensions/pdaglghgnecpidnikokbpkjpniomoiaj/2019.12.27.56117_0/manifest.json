@@ -1,0 +1,43 @@
+{
+   "app": {
+      "icon_color": "#2D5DCC",
+      "launch": {
+         "web_url": "https://calendar.google.com/calendar/r/week/2019/2/7"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://calendar.google.com/googlecalendar/images/favicon_v2014_31.ico"
+      }, {
+         "size": 32,
+         "url": "https://calendar.google.com/googlecalendar/images/favicon_v2014_31.ico"
+      }, {
+         "size": 48,
+         "url": "https://calendar.google.com/googlecalendar/images/favicon_v2018_256.png"
+      }, {
+         "size": 64,
+         "url": "https://calendar.google.com/googlecalendar/images/favicon_v2018_256.png"
+      }, {
+         "size": 96,
+         "url": "https://calendar.google.com/googlecalendar/images/favicon_v2018_256.png"
+      }, {
+         "size": 128,
+         "url": "https://calendar.google.com/googlecalendar/images/favicon_v2018_256.png"
+      }, {
+         "size": 256,
+         "url": "https://calendar.google.com/googlecalendar/images/favicon_v2018_256.png"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "6ltEY8SAQzmJwtWCmEQeFFtbLVyhvv4jr/zpjQb9zLA=",
+   "name": "Google Calendar",
+   "version": "2019.12.27.56117"
+}

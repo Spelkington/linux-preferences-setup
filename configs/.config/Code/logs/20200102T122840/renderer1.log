@@ -1,0 +1,2 @@
+[2020-01-02 12:29:41.067] [renderer1] [error] Unable to read file (Canceled: Canceled): Error: Unable to read file (Canceled: Canceled)
+    at _.doReadAsFileStream (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1591:434)

@@ -1,0 +1,15 @@
+2020/01/02-13:18:15.004 3c8c Reusing MANIFEST /home/spelkington/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/01/02-13:18:15.005 3c8c Recovering log #44
+2020/01/02-13:18:15.008 3c8c Reusing old log /home/spelkington/.config/google-chrome/Default/Sync Data/LevelDB/000044.log 
+2020/01/02-13:18:29.709 3e18 Level-0 table #48: started
+2020/01/02-13:18:29.721 3e18 Level-0 table #48: 95807 bytes OK
+2020/01/02-13:18:29.735 3e18 Delete type=0 #44
+2020/01/02-13:18:29.736 3e18 Compacting 4@0 + 1@1 files
+2020/01/02-13:18:29.756 3e18 Generated table #49@0: 1218 keys, 218280 bytes
+2020/01/02-13:18:29.756 3e18 Compacted 4@0 + 1@1 files => 218280 bytes
+2020/01/02-13:18:29.765 3e18 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/02-13:18:29.765 3e18 Delete type=2 #41
+2020/01/02-13:18:29.765 3e18 Delete type=2 #38
+2020/01/02-13:18:29.765 3e18 Delete type=2 #43
+2020/01/02-13:18:29.765 3e18 Delete type=2 #48
+2020/01/02-13:18:29.765 3e18 Delete type=2 #45

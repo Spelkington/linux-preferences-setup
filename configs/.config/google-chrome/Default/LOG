@@ -1,0 +1,69 @@
+2020/01/04-14:54:59.888 2d82 Recovering log #22
+2020/01/04-14:54:59.888 2d82 Level-0 table #24: started
+2020/01/04-14:54:59.894 2d82 Level-0 table #24: 729 bytes OK
+2020/01/04-14:54:59.908 2d82 Delete type=3 #20
+2020/01/04-14:54:59.908 2d82 Delete type=0 #22
+2020/01/04-15:42:41.869 16c4 Level-0 table #27: started
+2020/01/04-15:42:41.878 16c4 Level-0 table #27: 11866 bytes OK
+2020/01/04-15:42:41.887 16c4 Delete type=0 #25
+2020/01/04-15:43:20.013 16c4 Level-0 table #29: started
+2020/01/04-15:43:20.022 16c4 Level-0 table #29: 9856 bytes OK
+2020/01/04-15:43:20.029 16c4 Delete type=0 #26
+2020/01/04-15:43:20.029 16c4 Expanding@0 1+1 (157+528 bytes) to 4+1 (22608+528 bytes)
+2020/01/04-15:43:20.029 16c4 Compacting 4@0 + 1@1 files
+2020/01/04-15:43:20.034 16c4 Generated table #30@0: 2 keys, 672 bytes
+2020/01/04-15:43:20.034 16c4 Compacted 4@0 + 1@1 files => 672 bytes
+2020/01/04-15:43:20.041 16c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/04-15:43:20.042 16c4 Delete type=2 #27
+2020/01/04-15:43:20.042 16c4 Delete type=2 #21
+2020/01/04-15:43:20.042 16c4 Delete type=2 #19
+2020/01/04-15:43:20.042 16c4 Delete type=2 #24
+2020/01/04-15:43:20.042 16c4 Delete type=2 #29
+2020/01/04-15:43:58.107 16c4 Level-0 table #32: started
+2020/01/04-15:43:58.116 16c4 Level-0 table #32: 9853 bytes OK
+2020/01/04-15:43:58.124 16c4 Delete type=0 #28
+2020/01/04-15:44:36.182 16c4 Level-0 table #34: started
+2020/01/04-15:44:36.191 16c4 Level-0 table #34: 9850 bytes OK
+2020/01/04-15:44:36.198 16c4 Delete type=0 #31
+2020/01/04-15:45:14.284 16c4 Level-0 table #36: started
+2020/01/04-15:45:14.293 16c4 Level-0 table #36: 9856 bytes OK
+2020/01/04-15:45:14.301 16c4 Delete type=0 #33
+2020/01/04-15:45:52.424 16c4 Level-0 table #38: started
+2020/01/04-15:45:52.433 16c4 Level-0 table #38: 9852 bytes OK
+2020/01/04-15:45:52.441 16c4 Delete type=0 #35
+2020/01/04-15:45:52.441 16c4 Compacting 4@0 + 1@1 files
+2020/01/04-15:45:52.447 16c4 Generated table #39@0: 2 keys, 672 bytes
+2020/01/04-15:45:52.447 16c4 Compacted 4@0 + 1@1 files => 672 bytes
+2020/01/04-15:45:52.452 16c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/04-15:45:52.454 16c4 Delete type=2 #30
+2020/01/04-15:45:52.454 16c4 Delete type=2 #32
+2020/01/04-15:45:52.454 16c4 Delete type=2 #38
+2020/01/04-15:45:52.454 16c4 Delete type=2 #36
+2020/01/04-15:45:52.454 16c4 Delete type=2 #34
+2020/01/04-15:46:30.503 16c4 Level-0 table #41: started
+2020/01/04-15:46:30.558 16c4 Level-0 table #41: 9851 bytes OK
+2020/01/04-15:46:30.608 16c4 Delete type=0 #37
+2020/01/04-15:47:08.608 16c4 Level-0 table #43: started
+2020/01/04-15:47:08.617 16c4 Level-0 table #43: 9865 bytes OK
+2020/01/04-15:47:08.624 16c4 Delete type=0 #40
+2020/01/04-15:47:46.660 16c4 Level-0 table #45: started
+2020/01/04-15:47:46.669 16c4 Level-0 table #45: 9879 bytes OK
+2020/01/04-15:47:46.676 16c4 Delete type=0 #42
+2020/01/04-15:48:24.732 16c4 Level-0 table #47: started
+2020/01/04-15:48:24.741 16c4 Level-0 table #47: 9879 bytes OK
+2020/01/04-15:48:24.748 16c4 Delete type=0 #44
+2020/01/04-15:48:24.749 16c4 Compacting 4@0 + 1@1 files
+2020/01/04-15:48:24.754 16c4 Generated table #48@0: 2 keys, 672 bytes
+2020/01/04-15:48:24.754 16c4 Compacted 4@0 + 1@1 files => 672 bytes
+2020/01/04-15:48:24.760 16c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/04-15:48:24.762 16c4 Delete type=2 #39
+2020/01/04-15:48:24.762 16c4 Delete type=2 #41
+2020/01/04-15:48:24.762 16c4 Delete type=2 #43
+2020/01/04-15:48:24.762 16c4 Delete type=2 #45
+2020/01/04-15:48:24.762 16c4 Delete type=2 #47
+2020/01/04-15:49:02.804 16c4 Level-0 table #50: started
+2020/01/04-15:49:02.813 16c4 Level-0 table #50: 9877 bytes OK
+2020/01/04-15:49:02.821 16c4 Delete type=0 #46
+2020/01/04-15:49:40.885 16c4 Level-0 table #52: started
+2020/01/04-15:49:40.894 16c4 Level-0 table #52: 9863 bytes OK
+2020/01/04-15:49:40.901 16c4 Delete type=0 #49

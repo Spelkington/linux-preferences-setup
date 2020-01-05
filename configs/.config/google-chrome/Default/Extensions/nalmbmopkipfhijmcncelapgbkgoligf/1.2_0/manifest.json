@@ -1,0 +1,38 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "icons/icon16.png",
+         "32": "icons/icon32.png",
+         "48": "icons/icon48.png"
+      },
+      "default_title": "Simple Print"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Alt+Shift+P"
+         }
+      }
+   },
+   "description": "Convert web articles into printable PDFs",
+   "homepage_url": "https://pdf.fivefilters.org/simple-print/",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwF5hh6FYNA0GNPsbon7/5EbFwlsCeuBYrXQY06NuZKJOpguouFyNv5NZnjvdLTIyKgXQkOAjIt6DZT7mbSxHtaiUGc3pbhyL1MChfD5RloBZc91mLpTwSab1q39BjjLw1jt8Am+EjTsWuPziR/eycOEBB85uL+lxJLsU6Gbhg1Z32HRZo9USffqAxGZLHjMEBRllWbKekOLf9uLobEhpeSR9z6kqSsj4F6rGemn01sdE2E/1OdJZVJOFTtQD/1LRs3iO9nozLTXY5xCG+E8/5qqEgNPfAxOXuR3MdDaCcM79fojM1dlH7Std7cumYSc2GAtnKCChMMSRNgg70ihpOwIDAQAB",
+   "manifest_version": 2,
+   "name": "Simple Print",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}

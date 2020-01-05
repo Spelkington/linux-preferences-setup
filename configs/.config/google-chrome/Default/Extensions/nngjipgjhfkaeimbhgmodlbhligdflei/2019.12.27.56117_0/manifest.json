@@ -1,0 +1,50 @@
+{
+   "app": {
+      "icon_color": "#1A72E8",
+      "launch": {
+         "web_url": "https://messages.android.com/?lfhs=2"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "https://ssl.gstatic.com/images/branding/product/1x/messages_96dp.png"
+      }, {
+         "size": 48,
+         "url": "https://ssl.gstatic.com/images/branding/product/1x/messages_96dp.png"
+      }, {
+         "size": 64,
+         "url": "https://ssl.gstatic.com/images/branding/product/1x/messages_96dp.png"
+      }, {
+         "size": 96,
+         "url": "https://ssl.gstatic.com/images/branding/product/1x/messages_96dp.png"
+      }, {
+         "size": 128,
+         "url": "https://ssl.gstatic.com/images/branding/product/2x/messages_96dp.png"
+      }, {
+         "size": 144,
+         "url": "https://ssl.gstatic.com/images/branding/product/2x/messages_96dp.png"
+      }, {
+         "size": 256,
+         "url": "https://ssl.gstatic.com/images/branding/product/2x/messages_96dp.png"
+      } ],
+      "theme_color": "rgba(241,243,244,1)"
+   },
+   "description": "Use Messages for web to send SMS, MMS and chat messages from your computer. Open the Messages app on your Android phone to get started.",
+   "icons": {
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "n35xivzfTOZr7Ouzns2c+KYQvaZ64KTQaj8mpOMsxTU=",
+   "name": "Messages",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://messages.android.com/*" ],
+         "title": "Messages"
+      }
+   },
+   "version": "2019.12.27.56117"
+}

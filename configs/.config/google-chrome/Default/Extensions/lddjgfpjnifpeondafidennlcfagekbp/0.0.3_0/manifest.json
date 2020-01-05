@@ -1,0 +1,21 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "bg.js" ]
+   },
+   "description": "All downloads overwrite existing files instead of adding ' (1)', ' (2)', etc. Includes fix to remember folders.",
+   "homepage_url": "https://github.com/zach-adams/downloads-overwrite-already-existing-files",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzMMtnQAuFnPfzA/OAo68xGORZhDcL1k2ux7pkF03ZqsebM/ictIEY1TfTCzihvSEhaob7FZpP2HsVtP+4SqG8KkVvSQLIaLnQ0DEskx+4H7AsqO1v06EGYQPWy7kfrlnVZ9aO8PGnAqrJSyjrXn/QgIQusQ6H0ZIraX4evSCL6+KxbE/SsrihDvsBIx31dk4eoiYpc6qAdYc9doQPe2XRRCNy6/aVRB59prfwL2WVYDGbBQQBeKNNv5rQ85DwvBSP1WXHuq0UpqtymSXihnERd/QOfSEHxqClfd4T169L0GciigaYb1xF8z8XYC9zIL32IP1AIQ5b8aIK2JWoXyc9QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "26.0.1428",
+   "name": "Downloads Overwrite Already Existing Files",
+   "permissions": [ "downloads" ],
+   "short_name": "Downloads Overwrite Existing Files",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.3"
+}
