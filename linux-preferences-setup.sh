@@ -114,3 +114,4 @@ sh $SETUP/arduino*/install.sh
 echo "\n${CYAN}Cleaning up...${NC}"
 rm -rf $SETUP
 
+echo "\n${CYAN}Setup complete! Re-log for changes to take effect.${NC}"
