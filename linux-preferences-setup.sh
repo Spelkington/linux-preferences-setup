@@ -86,21 +86,18 @@ sudo make install
 
 libinput-gestures-setup autostart
 
-# ===== GNOME UTLITIES =====
-echo "\n${CYAN}Installing Gnome utils${NC}"
-sudo apt install -y gnome-screenshot gnome-disk-utility
-
-# ===== VIM =====
-echo "\n${CYAN}Installing Vim${NC}"
-sudo apt install -y vim
+# ===== UTLITIES =====
+echo "\n${CYAN}Installing Utils${NC}"
+sudo apt install -y \ 
+	gnome-screenshot \
+	gnome-disk-utility \
+	vim \
+	remmina \
 
 # ===== VSCODE =====
 echo "\n${CYAN}Installing VSCode${NC}"
 wget -O $SETUP/vscode.deb https://go.microsoft.com/fwlink/?LinkID=760868
 sudo apt install $SETUP/vscode.deb
-
-# ===== Remmina =====
-sudo apt install remmina
 
 # ===== Arduino =====
 
