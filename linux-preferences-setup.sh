@@ -143,7 +143,7 @@ echo "$(cat $SETUP/stata-access/install-code)"
 echo "\n${CYAN}STATA UNPACKING${NC}"
 cd $SETUP
 mkdir statafiles
-tar -zxfv $USERDIR/Downloads/Stata16Linux64.tar.gz
+tar -zxf $USERDIR/Downloads/Stata16Linux64.tar.gz
 cd /usr/local
 sudo mkdir stata16
 cd stata16
