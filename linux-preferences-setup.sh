@@ -143,7 +143,7 @@ echo "$(cat $SETUP/stata-access/install-code)"
 echo "\n${CYAN}STATA UNPACKING${NC}"
 cd $SETUP
 mkdir statafiles
-tar -zxf $USERDIR/Downloads/Stata16Linux64.tar.gz
+tar -zxf $USERDIR/Downloads/Stata16Linux64.tar.gz -C $(SETUP)/statafiles
 cd /usr/local
 sudo mkdir stata16
 cd stata16
@@ -154,6 +154,6 @@ read _
 
 # ===== CLEANUP =====
 echo "\n${CYAN}Cleaning up...${NC}"
-rm -rf $SETUP
+sudo rm -rf $SETUP
 
 echo "\n${CYAN}Setup complete! Re-log for changes to take effect.${NC}"
