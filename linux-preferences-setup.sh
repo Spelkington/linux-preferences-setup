@@ -73,11 +73,35 @@ echo "\n${CYAN}Installing Anaconda/Python${NC}"
 wget -O $SETUP/anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 sh $SETUP/anaconda.sh
 
+# ===== UTLITIES =====
+echo "\n${CYAN}Installing Utils${NC}"
+sudo apt install -y \ 
+	gnome-screenshot \
+	gnome-disk-utility \
+	vim \
+	remmina \
+	screen \
+#UNCOMMENT	gnome-terminal
+
+# ===== VSCODE =====
+echo "\n${CYAN}Installing VSCode${NC}"
+wget -O $SETUP/vscode.deb https://go.microsoft.com/fwlink/?LinkID=760868
+sudo apt install $SETUP/vscode.deb
+
 # ===== GESTURES SETUP =====
 echo "\n${CYAN}Set up gestures for workspace swiping${NC}"
 
 sudo gpasswd -a $USER input
-sudo apt install -y xdotool wmctrl libinput-tools
+sudo apt install -y \
+	xdotool \
+	wmctrl \
+	libinput-tools \
+	python3  \
+	python3-setuptools \
+	xdotool \
+	python3-gi \
+	libinput-tools \
+	python-gobject
 
 cd $SETUP
 git clone https://github.com/bulletmark/libinput-gestures.git
@@ -86,18 +110,10 @@ sudo make install
 
 libinput-gestures-setup autostart
 
-# ===== UTLITIES =====
-echo "\n${CYAN}Installing Utils${NC}"
-sudo apt install -y \ 
-	gnome-screenshot \
-	gnome-disk-utility \
-	vim \
-	remmina \
-
-# ===== VSCODE =====
-echo "\n${CYAN}Installing VSCode${NC}"
-wget -O $SETUP/vscode.deb https://go.microsoft.com/fwlink/?LinkID=760868
-sudo apt install $SETUP/vscode.deb
+cd $SETUP
+git clone https://gitlab.com/cunidev/gestures
+cd $SETUP/gestures
+sudo python3 setup.py install
 
 # ===== Arduino =====
 
@@ -106,6 +122,35 @@ ARDUINO_VER=1.8.10
 wget -O $SETUP/arduino.tar.xz https://downloads.arduino.cc/arduino-${ARDUINO_VER}-linux64.tar.xz
 tar xvJf $SETUP/arduino.tar.xz -C $SETUP
 sh $SETUP/arduino*/install.sh
+
+# ===== STATA =====
+
+cd $SETUP
+git clone git@github.com:Spelkington/stata-access.git
+
+echo "\n${CYAN}STATA DOWNLOAD CREDENTIALS${NC}"
+echo "$(cat $SETUP/stata-access/creds)"
+
+echo "\n${CYAN}Opening STATA Download entry...${NC}"
+xdg-open https://download.stata.com/download/linux64_16/Stata16Linux64.tar.gz
+
+echo "\n${CYAN}Press ENTER once STATA is downloaded into ~/Downloads.${NC}"
+read _
+
+echo "\n${CYAN}STATA INSTALL CREDENTIALS${NC}"
+echo "$(cat $SETUP/stata-access/creds)"
+
+echo "\n${CYAN}STATA UNPACKING${NC}"
+cd $SETUP
+mkdir statafiles
+tar -zxfv $USERDIR/Downloads/Stata16Linux64.tar.gz
+cd /usr/local
+sudo mkdir stata16
+cd stata16
+sudo gnome-terminal -- "${SETUP}/statafiles/install" &
+
+echo "\n${CYAN}Press ENTER once STATA is installed.${NC}"
+read _
 
 # ===== CLEANUP =====
 echo "\n${CYAN}Cleaning up...${NC}"
