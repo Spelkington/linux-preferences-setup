@@ -138,7 +138,7 @@ echo "\n${CYAN}Press ENTER once STATA is downloaded into ~/Downloads.${NC}"
 read _
 
 echo "\n${CYAN}STATA INSTALL CREDENTIALS${NC}"
-echo "$(cat $SETUP/stata-access/creds)"
+echo "$(cat $SETUP/stata-access/install-code)"
 
 echo "\n${CYAN}STATA UNPACKING${NC}"
 cd $SETUP
