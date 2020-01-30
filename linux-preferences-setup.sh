@@ -81,7 +81,7 @@ sudo apt install -y \
 	vim \
 	remmina \
 	screen \
-#UNCOMMENT	gnome-terminal
+	gnome-terminal;
 
 # ===== VSCODE =====
 echo "\n${CYAN}Installing VSCode${NC}"
@@ -101,7 +101,7 @@ sudo apt install -y \
 	xdotool \
 	python3-gi \
 	libinput-tools \
-	python-gobject
+	python-gobject;
 
 cd $SETUP
 git clone https://github.com/bulletmark/libinput-gestures.git
@@ -121,7 +121,9 @@ ARDUINO_VER=1.8.10
 
 wget -O $SETUP/arduino.tar.xz https://downloads.arduino.cc/arduino-${ARDUINO_VER}-linux64.tar.xz
 tar xvJf $SETUP/arduino.tar.xz -C $SETUP
-sh $SETUP/arduino*/install.sh
+sudo sh $SETUP/arduino*/install.sh
+
+sudo usermod -a -G dialout $USER
 
 # ===== STATA =====
 
@@ -140,6 +142,9 @@ read _
 echo "\n${CYAN}STATA INSTALL CREDENTIALS${NC}"
 echo "$(cat $SETUP/stata-access/install-code)"
 
+echo "\n${CYAN}STATA DOWNLOAD CREDENTIALS${NC}"
+echo "$(cat $SETUP/stata-access/creds)"
+
 echo "\n${CYAN}STATA UNPACKING${NC}"
 cd $SETUP
 mkdir statafiles
@@ -147,10 +152,29 @@ tar -zxf $USERDIR/Downloads/Stata16Linux64.tar.gz -C $SETUP/statafiles
 cd /usr/local
 sudo mkdir stata16
 cd stata16
-sudo gnome-terminal -- "${SETUP}/statafiles/install" &
+sudo gnome-terminal -- "${SETUP}/statafiles/install; ${SETUP}/statafiles/stinit" &
 
 echo "\n${CYAN}Press ENTER once STATA is installed.${NC}"
 read _
+
+# ===== R STUDIO =====
+sudo apt install lib-clang r-base
+wget -O $SETUP/r-studio.deb https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5033-amd64.deb
+sudo dpkg -i $SETUP/r-studio.deb
+
+# ===== PRIVATE INTERNET ACCESS =====
+sudo apt install openvpn
+cd /etc/openvpn
+sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
+sudo unzip openvpn.zip
+
+# TODO: Complete this!
+
+# ===== BASH ALIASES =====
+
+echo "alias la='ls -la'" >> ~/.bashrc
+echo "alias stata='/usr/local/stata16/stata'" >> ~/.bashrc
+echo "alias xstata='/usr/local/stata16/xstata'" >> ~/.bashrc
 
 # ===== CLEANUP =====
 echo "\n${CYAN}Cleaning up...${NC}"
